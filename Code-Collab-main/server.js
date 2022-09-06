@@ -23,7 +23,7 @@ const io = socketIO(server, {
 });
 let roomname
 
-const dbURI = "mongodb+srv://Abhinav:abhinav@cluster0.fg6uh.mongodb.net/code-collab?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://Jalaj:jalajpatel@cluster0.fg6uh.mongodb.net/code-collab?retryWrites=true&w=majority";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB is connected'))
     .catch((err) => { console.log(err) });
